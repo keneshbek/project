@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_open_page)
 
-        val button = findViewById<Button>(R.id.buttonNachat)
-        button.setOnClickListener {
+        val next = findViewById<Button>(R.id.buttonNachat)
+        next.setOnClickListener {
             startActivity(Intent(this, MainActivity2::class.java))
         }
     }
