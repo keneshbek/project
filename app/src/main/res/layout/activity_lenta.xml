@@ -34,7 +34,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="116dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Вкусная еда для вас"
+        android:text="@string/vkusnaia_eda"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="238dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Поиск"
+        android:text="@string/poisk"
         android:textSize="19sp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="parent" />
@@ -68,7 +68,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="300dp"
         android:fontFamily="@font/montserrat"
-        android:text="Еда"
+        android:text="@string/eda"
         android:textColor="@color/red"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="300dp"
         android:fontFamily="@font/montserrat"
-        android:text="Напитики"
+        android:text="@string/napitki"
         android:textSize="17sp"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="parent">
@@ -97,7 +97,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="300dp"
         android:fontFamily="@font/montserrat"
-        android:text="Закуски"
+        android:text="@string/zakuski"
         android:textSize="17sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="parent">
@@ -110,7 +110,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="300dp"
         android:fontFamily="@font/montserrat"
-        android:text="Соусы"
+        android:text="@string/sousy"
         android:textSize="17sp"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toTopOf="parent">
