@@ -9,7 +9,7 @@ import android.widget.ImageView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.`open_page.xml`)
+        setContentView(R.layout.activity_open_page)
 
         val button = findViewById<Button>(R.id.buttonNachat)
         button.setOnClickListener {

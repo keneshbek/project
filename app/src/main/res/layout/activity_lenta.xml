@@ -9,6 +9,7 @@
 
 
     <ImageView
+        android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -51,6 +52,7 @@
         app:srcCompat="@drawable/vector__1_" />
 
     <TextView
+        android:id="@+id/poisk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

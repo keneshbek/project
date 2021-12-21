@@ -54,6 +54,7 @@
         app:srcCompat="@drawable/group_73" />
 
     <Button
+        android:id="@+id/podt"
         android:layout_width="320dp"
         android:layout_height="69dp"
         android:layout_marginBottom="44dp"

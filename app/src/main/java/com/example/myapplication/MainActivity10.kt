@@ -6,6 +6,6 @@ import android.os.Bundle
 class MainActivity10 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.`activity_oplata.xml`)
+        setContentView(R.layout.activity_oplata)
     }
 }
